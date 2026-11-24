@@ -1,0 +1,17 @@
+{
+  "name": "x-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server that emulates X's hosted MCP endpoint (api.x.com/mcp) for any MCP client",
+  "bin": { "x-mcp": "./x-mcp.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "auth": "node x-mcp.mjs auth",
+    "serve": "node x-mcp.mjs serve",
+    "http": "node x-mcp.mjs http",
+    "tools": "node x-mcp.mjs tools",
+    "status": "node x-mcp.mjs status"
+  },
+  "license": "MIT"
+}
